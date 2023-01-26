@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "913229793068",
+    "project_id": "vaccine-7",
+    "storage_bucket": "vaccine-7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913229793068:android:d240eb0e17f959fbca0e89",
+        "android_client_info": {
+          "package_name": "com.mmcoe.pacem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913229793068-9u7je6bjjf2vggk622k7e95k8bt2m9s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlr6WDlzRF68GF3_EuY1jbWuUJuXLiqvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913229793068-9u7je6bjjf2vggk622k7e95k8bt2m9s6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
