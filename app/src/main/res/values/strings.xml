@@ -22,6 +22,8 @@
 
     <string name="menu_schedule">Schedule</string>
     <string name="menu_add_child">Add Child</string>
+    <string name="menu_bmi_calculator">Bmi Calculator</string>
+
     <string name="menu_home">Home</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>

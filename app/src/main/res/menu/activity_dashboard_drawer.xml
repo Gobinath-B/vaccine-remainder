@@ -16,6 +16,10 @@
             android:id="@+id/nav_addChild"
             android:icon="@drawable/ic_menu_add"
             android:title="@string/menu_add_child" />
+        <item
+            android:id="@+id/nav_bmiCalculator"
+            android:icon="@drawable/ic_calculator"
+            android:title="@string/menu_bmi_calculator" />
     </group>
 
 </menu>

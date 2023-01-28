@@ -11,7 +11,6 @@
         android:id="@+id/textViewChild"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:checkMark="@drawable/ic_check"
         android:textColor="@android:color/black"
         android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
         android:textSize="14sp" />
