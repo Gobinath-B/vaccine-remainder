@@ -65,7 +65,7 @@ public class DateChangeService extends Service {
     }
 
     private void checkVaccine(){
-        if (age == 0 || age == 42 || age == 70 || age == 98 || age == 183 || age == 274 || age == 335 || age == 365 || age == 456 || age == 517 || age == 548 || age == 730 || age == 1460){
+        if (age == 0 || age == 42 || age == 84 || age == 70 || age == 98 || age == 183 || age == 274 || age == 335 || age == 365 || age == 456 || age == 517 || age == 548 || age == 730 || age == 1460){
             notifyUser();
         }
     }

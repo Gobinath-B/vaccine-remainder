@@ -35,12 +35,14 @@
     <string name="weight">Weight (kg)</string>
 
     <string-array name="vaccine_birth">
+        <item>Birth week</item>
         <item>Bacillus Calmette–Guérin (BCG)</item>
         <item>Oral polio vaccine (OPV 0)</item>
         <item>Hepatitis B (Hep – B1)</item>
     </string-array>
 
     <string-array name="vaccine_week_6">
+        <item> Week - 6</item>
         <item>Diptheria, Tetanus and Pertussis vaccine (DTwP 1)</item>
         <item>Inactivated polio vaccine (IPV 1)</item>
         <item>Hepatitis B  (Hep – B2)</item>
@@ -50,6 +52,7 @@
     </string-array>
 
     <string-array name="vaccine_week_10">
+        <item>Week - 10</item>
         <item>Diptheria, Tetanus and Pertussis vaccine (DTwP 2)</item>
         <item>Inactivated polio vaccine (IPV 2)</item>
         <item>Haemophilus influenzae type B (Hib 2)</item>
@@ -58,11 +61,12 @@
     </string-array>
 
     <string-array name="vaccine_week_12">
-
+        <item>Week - 12</item>
         <item> BMI CHECK </item>
     </string-array>
 
     <string-array name="vaccine_week_14">
+        <item>Week - 14</item>
         <item>Diptheria, Tetanus and Pertussis vaccine (DTwP 3)</item>
         <item>Inactivated polio vaccine (IPV 3)</item>
         <item>Haemophilus influenzae type B (Hib 3)</item>
@@ -71,27 +75,32 @@
     </string-array>
 
     <string-array name="vaccine_month_6">
+        <item>Month - 6</item>
         <item>Oral polio vaccine (OPV 1)</item>
         <item>Hepatitis B (Hep – B3)</item>
         <item>BMI check</item>
     </string-array>
 
     <string-array name="vaccine_month_9">
+        <item>Month - 9</item>
         <item>Oral polio vaccine (OPV 2)</item>
         <item>Measles, Mumps, and Rubella (MMR – 1)</item>
         <item>BMI check </item>
     </string-array>
 
     <string-array name="vaccine_month_9_12">
+        <item>Month - 9 To 12</item>
         <item>Typhoid Conjugate Vaccine</item>
     </string-array>
 
     <string-array name="vaccine_month_12">
+        <item>Month - 12</item>
         <item>Hepatitis A (Hep – A1)</item>
         <item>BMI check</item>
     </string-array>
 
     <string-array name="vaccine_month_15">
+        <item>Month - 15</item>
         <item>Measles, Mumps, and Rubella (MMR 2)</item>
         <item>Varicella 1</item>
         <item>PCV booster</item>
@@ -99,22 +108,27 @@
     </string-array>
 
     <string-array name="vaccine_month_16_18">
+        <item>Month - 16 To 18</item>
         <item>Diphtheria, Perussis, and Tetanus (DTwP B1/DTaP B1)</item>
         <item>Inactivated polio vaccine (IPV B1)</item>
         <item>Haemophilus influenzae type B (Hib B1)</item>
     </string-array>
 
     <string-array name="vaccine_month_18">
+        <item>Month - 18</item>
         <item>Hepatitis A (Hep – A2)</item>
         <item>BMI check</item>
     </string-array>
 
     <string-array name="vaccine_year_2">
+        <item>Year - 2</item>
         <item>Booster of Typhoid Conjugate Vaccine</item>
         <item>BMI check </item>
     </string-array>
 
     <string-array name="vaccine_year_4_6">
+
+        <item>Year - 4 To 6</item>
         <item>Diphtheria, Perussis, and Tetanus (DTwP B2/DTaP B2)</item>
         <item>Oral polio vaccine (OPV 3)</item>
         <item>Varicella 2</item>
