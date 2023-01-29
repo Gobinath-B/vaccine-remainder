@@ -39,6 +39,7 @@ public class ScheduleFragment extends Fragment {
         listDataGroup.add("At Birth");
         listDataGroup.add("6 Weeks");
         listDataGroup.add("10 Weeks");
+        listDataGroup.add("12 weeks-BMI check");
         listDataGroup.add("14 Weeks");
         listDataGroup.add("6 Months");
         listDataGroup.add("9 Months");
@@ -61,6 +62,9 @@ public class ScheduleFragment extends Fragment {
 
         array = getResources().getStringArray(R.array.vaccine_week_10);
         List<String> vaccineWeek10 = new ArrayList<>(Arrays.asList(array));
+
+        array = getResources().getStringArray(R.array.vaccine_week_12);
+        List<String>  bmiCheck = new ArrayList<>(Arrays.asList(array));
 
         array = getResources().getStringArray(R.array.vaccine_week_14);
         List<String> vaccineWeek14 = new ArrayList<>(Arrays.asList(array));
@@ -96,16 +100,17 @@ public class ScheduleFragment extends Fragment {
         listDataChild.put(listDataGroup.get(0), vaccineBirth);
         listDataChild.put(listDataGroup.get(1), vaccineWeek6);
         listDataChild.put(listDataGroup.get(2), vaccineWeek10);
-        listDataChild.put(listDataGroup.get(3), vaccineWeek14);
-        listDataChild.put(listDataGroup.get(4), vaccineMonth6);
-        listDataChild.put(listDataGroup.get(5), vaccineMonth9);
-        listDataChild.put(listDataGroup.get(6), vaccineMonth912);
-        listDataChild.put(listDataGroup.get(7), vaccineMonth12);
-        listDataChild.put(listDataGroup.get(8), vaccineMonth15);
-        listDataChild.put(listDataGroup.get(9), vaccineMonth1618);
-        listDataChild.put(listDataGroup.get(10), vaccineMonth18);
-        listDataChild.put(listDataGroup.get(11), vaccineYear2);
-        listDataChild.put(listDataGroup.get(12), vaccineYear46);
+        listDataChild.put(listDataGroup.get(3), bmiCheck);
+        listDataChild.put(listDataGroup.get(4), vaccineWeek14);
+        listDataChild.put(listDataGroup.get(5), vaccineMonth6);
+        listDataChild.put(listDataGroup.get(6), vaccineMonth9);
+        listDataChild.put(listDataGroup.get(7), vaccineMonth912);
+        listDataChild.put(listDataGroup.get(8), vaccineMonth12);
+        listDataChild.put(listDataGroup.get(9), vaccineMonth15);
+        listDataChild.put(listDataGroup.get(10), vaccineMonth1618);
+        listDataChild.put(listDataGroup.get(11), vaccineMonth18);
+        listDataChild.put(listDataGroup.get(12), vaccineYear2);
+        listDataChild.put(listDataGroup.get(13), vaccineYear46);
 
         // notify the adapter
         expandableListViewAdapter.notifyDataSetChanged();
